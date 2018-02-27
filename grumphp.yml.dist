@@ -23,10 +23,6 @@ parameters:
         - module
         - inc
         - js
-    phpspec:
-        format: pretty
-        stop_on_failure: true
-        verbose: true
     securitychecker:
         lockfile: ./composer.lock
         format: ~
